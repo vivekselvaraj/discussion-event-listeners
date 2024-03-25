@@ -25,4 +25,15 @@ filePicker.addEventListener("change", () => {
   });
 
 
-  
+
+  function downloadFile() {
+    alert("File download will start in 5 seconds");
+    // Code to download file.
+    }
+    
+    let button = document.querySelector("button.validate-button");
+    button.addEventListener("click", downloadFile);
+
+  let username_list = ["a", "b", "c", "d", "e", "f", "g"];
+
+

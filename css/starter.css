@@ -32,6 +32,15 @@ hr {
     padding: 20px;
     background-color: lightyellow;
     border: 1px solid burlywood;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.question > span {
+    font-size: xx-large;
+    opacity: 0.90;
 }
 
 .hidden {
@@ -44,12 +53,8 @@ hr {
     row-gap: 10px;
 }
 
-#password-alert {
+#password-alert, #username-alert {
     grid-column-start: 2;
-}
-
-.password-alert {
-    color: gray;
 }
 
 .validate-button {
