@@ -1,3 +1,10 @@
+let userList = ["admin", "studnet", "santa", "claus", "test"];
+
+let userName = document.getElementById("user_name");
+userName.addEventListener("input", (e) => {
+  console.log(e.target.value);
+})
+
 let instructionButton = document.getElementById("instruction_button");
 instructionButton.addEventListener("click", function() {
     let instructions = document.querySelectorAll(".question");
@@ -31,9 +38,18 @@ filePicker.addEventListener("change", () => {
     // Code to download file.
     }
     
-    let button = document.querySelector("button.validate-button");
-    button.addEventListener("click", downloadFile);
+    // let button = document.querySelector("button.validate-button");
+    // button.addEventListener("click", downloadFile);
 
   let username_list = ["a", "b", "c", "d", "e", "f", "g"];
+
+let firstName = document.getElementById("first_name");
+firstName.addEventListener("input", (e) => {
+  console.log('first name changed');
+  console.log(e.target.value);
+  if (e.target.value == "Joe") {
+    document.getElementById("last_name").value = "Doe"
+  }
+})
 
 

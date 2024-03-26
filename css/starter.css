@@ -9,6 +9,10 @@ hr {
     margin: 20px;
 }
 
+p {
+    margin-bottom: 10px;
+}
+
 .student-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -50,14 +54,13 @@ hr {
 .label-grid {
     display: grid;
     grid-template-columns: 200px 200px;
-    row-gap: 10px;
+    gap: 10px;
 }
 
 #password-alert, #username-alert {
     grid-column-start: 2;
 }
 
-.validate-button {
-    margin: 2rem 0;
+.reset-form-button {
     width: 100%;
 }
